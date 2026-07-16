@@ -20,17 +20,16 @@
     bottom: 39px;
     left: 0;
     right: 0;
-    font-size: 18px;
+    margin: 0 auto;
+    z-index: 2;
     padding: 12px 0 14px;
-    border-radius: 8px;
-    height: auto;
+    font-size: 18px;
+    line-height: 1;
+    background-color: #000;
+    color: #fff;
     width: calc(100% - 40px);
     max-width: 353px;
     aspect-ratio: auto;
-    line-height: 1;
-    margin: 0 auto;
-    z-index: 2;
-    background-color: #000;
-    color: #fff;
+    border-radius: 8px;
   }
 }
