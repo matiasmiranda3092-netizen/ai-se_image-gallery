@@ -5,6 +5,13 @@ const homeSection = document.querySelector("#home");
 const carouselSection = document.querySelector("#carousel");
 const notFoundSection = document.querySelector("#not-found");
 
+const confirmationModal = document.querySelector("#confirmation-modal");
+const cancelBtnEl = confirmationModal.querySelector(".modal__btn_type_cancel");
+const confirmBtnEl = confirmationModal.querySelector(
+  ".modal__btn_type_confirm",
+);
+let currentImageEl = null;
+
 function renderHomeView() {
   homeSection.style.display = "block";
   carouselSection.style.display = "none";
